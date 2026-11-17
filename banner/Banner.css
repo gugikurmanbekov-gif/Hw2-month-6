@@ -1,0 +1,37 @@
+.banner{
+position: relative;
+width: 100%;
+height: 100vh;
+
+}
+
+.banner img{
+width: 100%;
+height: 100%;
+}
+
+.banner .link{
+background-color: yellow;
+padding: 70px;
+position: absolute;
+bottom: 0;
+right: 170px;
+border-top-left-radius: 50px;
+border-top-right-radius: 50px;
+
+}
+
+.banner .link h2{
+font-size: 42px;
+width: 484px;
+margin-bottom: 25px;
+font-family: 'Play';
+}
+
+.banner .link button{
+padding: 19px 50px;
+background-color: black;
+color: yellow;
+font-size: 24px;
+border: none;
+}

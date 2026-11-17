@@ -1,0 +1,10 @@
+.header_cont{
+position: absolute;
+top: 20px;
+left: 50%;
+transform: translate(-50%);
+display: flex;
+gap: 600px;
+align-items: center;
+z-index: 1;
+}

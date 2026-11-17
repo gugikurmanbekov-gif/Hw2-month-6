@@ -1,0 +1,67 @@
+@import url('https://googleapis.com');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.footer {
+  font-family: 'Roboto', sans-serif;
+}
+
+.footer-top {
+  background-color: #ffffff;
+  padding: 13px 0;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+}
+
+.footer-logos {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.footer-logos img {
+  height: 74px;
+  display: block;
+}
+
+.footer-links {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.footer-links a {
+  font-size: 18px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  background-color: #000000;
+  padding: 13px 20px;
+  text-align: center;
+}
+
+.footer-bottom p {
+  font-size: 12px;
+  color: #ffffff;
+}

@@ -1,0 +1,135 @@
+@import url('https://googleapis.com');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.play-win {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 70px 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.play-win-header {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  margin-bottom: 25px;
+}
+
+.play-win-header img {
+  width: 132px;
+  height: 132px;
+}
+
+.play-win-header h2 {
+  font-family: 'Archangelsk', 'Roboto', sans-serif;
+  font-size: 62px;
+  font-weight: 400;
+}
+
+.play-win-desc {
+  max-width: 952px;
+  font-size: 18px;
+  line-height: 34px;
+  margin-bottom: 45px;
+}
+
+.play-win-desc span {
+  color: #52BEDC;
+  font-weight: 700;
+}
+
+.play-win-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 32px;
+}
+
+.play-win-form {
+  width: 460px;
+  display: flex;
+  flex-direction: column;
+}
+
+.play-win-form input[type="text"],
+.play-win-form input[type="email"] {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #777777;
+  padding: 13px 0;
+  margin-bottom: 35px;
+  font-size: 18px;
+  color: #ffffff;
+  outline: none;
+}
+
+.play-win-form input::placeholder {
+  color: #ffffff;
+}
+
+.file-upload {
+  height: 120px;
+  border: 1px dashed #777777;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin-bottom: 35px;
+}
+
+.file-upload input {
+  display: none;
+}
+
+.file-upload span {
+  font-size: 18px;
+  text-decoration: underline;
+  margin-bottom: 7px;
+}
+
+.file-upload small {
+  font-size: 12px;
+}
+
+.play-win-form button {
+  width: 192px;
+  height: 59px;
+  background-color: #F8F200;
+  border: none;
+  font-size: 18px;
+  font-weight: 700;
+  color: #000000;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.checkbox-label input {
+  accent-color: #F8F200;
+  width: 14px;
+  height: 14px;
+}
+
+.consoles-img {
+  max-width: 788px;
+  width: 100%;
+}
